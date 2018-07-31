@@ -10,5 +10,8 @@ class App < Sinatra::Base
     erb :name 
   end
 
-  get '/'
+  get '/hometown' do 
+    erb :hometown 
+  end 
+  
 end
