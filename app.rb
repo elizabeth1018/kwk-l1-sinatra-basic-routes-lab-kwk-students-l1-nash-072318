@@ -15,6 +15,6 @@ class App < Sinatra::Base
   end 
   
   get '/favorit-song' do
-    erb :favorit-song 
+    "My favorit song is "
   end
 end
