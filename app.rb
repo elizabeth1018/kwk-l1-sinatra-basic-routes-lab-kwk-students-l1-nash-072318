@@ -11,7 +11,7 @@ class App < Sinatra::Base
   end
 
   get '/hometown' do 
-    erb :hometown 
+    "My hometown is Winchester, TN"
   end 
   
   get '/favorit-song' do
