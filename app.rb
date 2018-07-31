@@ -14,4 +14,7 @@ class App < Sinatra::Base
     erb :hometown 
   end 
   
+  get '/favorit-song' do
+    erb :favorit-song 
+  end
 end
