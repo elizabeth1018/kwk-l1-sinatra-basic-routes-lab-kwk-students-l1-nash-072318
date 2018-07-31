@@ -10,4 +10,5 @@ class App < Sinatra::Base
     erb :name 
   end
 
+  get '/'
 end
